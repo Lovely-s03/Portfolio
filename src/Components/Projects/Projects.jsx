@@ -1,5 +1,8 @@
 import React from "react";
 import ProjectCard from "./ProjectCard";
+import ecommerce from '../../assets/eccomerceWeb.jpg'
+import HRMS from '../../assets/hrm.jpg'
+import web from '../../assets/web.jpg'
 
 const Projects = () => {
   return (
@@ -11,16 +14,20 @@ const Projects = () => {
           title="Ecommerce Website"
           main="Built a fully responsive e-commerce website using React.js and FakeStore API, featuring product filtering, cart functionality, and detailed product pages. Integrated Clerk for authentication, used Slick Carousel, Toastify, and Lottie for enhanced UX, and followed a modular structure with React Hooks for clean, maintainable code."
             link="https://ecommerce-website-vok3.vercel.app/"
+            img={ecommerce}
+
         />
         <ProjectCard
           title="HRMS"
           main="Developed an HR management system with features like payroll, attendance, performance tracking, role-based access, real-time updates, and reporting. Built responsive UI with React, integrated backend APIs, designed database schema, implemented JWT-based authentication, and optimized overall system performance."
           link="https://hrms-2025-tan.vercel.app/login"
+          img={HRMS}
         />
            <ProjectCard
           title="Kushel digi Website"
           main="Contributed to Kushel Digi's official website, focusing on layout, design consistency, and mobile responsiveness. Improved UI/UX with clean, interactive components and collaborated in a real-time development environment."
           link="https://www.kusheldigi.com/"
+          img={web}
         />
       </div>
     </div>

@@ -3,10 +3,12 @@ import { FaCss3, FaHtml5, FaJs, FaReact } from "react-icons/fa";
 import { SiNextdotjs } from "react-icons/si";
 
 const techStack = [
-  { icon: <FaHtml5 size={30} />, color: "#e34c26", name: "HTML5" },
-  { icon: <FaCss3 size={30} />, color: "#1572B6", name: "CSS3" },
-  { icon: <FaJs size={30} />, color: "#f7df1e", name: "JavaScript" },
-  { icon: <FaReact size={30} />, color: "#61DBFB", name: "React" },
+
+  { icon: <FaHtml5 size={30} color="#e34c26" />, color: "#e34c26", name: "HTML5" },
+  { icon: <FaCss3 size={30} color="#1572B6" />, color: "#1572B6", name: "CSS3" },
+  { icon: <FaJs size={30} color="#f7df1e" />, color: "#f7df1e", name: "JavaScript" },
+  { icon: <FaReact size={30} color="#61DBFB" />, color: "#61DBFB", name: "React" }
+,
   {
     icon: (
       <img
@@ -31,7 +33,7 @@ const Experience = () => {
 
       {/* Experience Card */}
       <div className="bg-white bg-opacity-5 backdrop-blur-md border border-white/10 rounded-xl p-6 md:p-10 shadow-lg transition-all duration-300 hover:shadow-2xl mx-auto max-w-4xl mb-16">
-        <div className="flex items-center gap-6">
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
           <img
             src="https://res.cloudinary.com/dd9tagtiw/image/upload/v1750049645/Kds_logo_1_2_piufdc.svg"
             alt="Kushel Logo"
