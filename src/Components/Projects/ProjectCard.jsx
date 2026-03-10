@@ -8,13 +8,13 @@ const ProjectCard = ({ title, main, link , img}) => {
       
       <div className="overflow-hidden rounded-t-2xl">
         <img
-          className="h-auto lg:h-[300px] object-cover w-full transition-transform duration-500 ease-in-out"
+          className="h-auto md:h-[250px] lg:h-[320px] object-cover w-full transition-transform duration-500 ease-in-out"
           src={img}
           alt="project"
         />
       </div>
 
-      <div className="p-5 flex flex-col justify-between flex-1">
+      <div className="p-5 flex flex-col justify-between flex-1 h-auto  md:h-[300px] lg:h-[300px]">
         <h3 className="text-xl md:text-2xl font-bold text-white mb-2">
           {title}
         </h3>
