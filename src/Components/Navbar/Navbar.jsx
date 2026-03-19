@@ -7,14 +7,12 @@ const Navbar = () => {
   const toggleMenu = () => setIsOpen(!isOpen);
 
   return (
-    <nav className="sticky top-0 left-0  z-50 backdrop-blur-md bg-black/40 shadow-lg">
+    <nav className="fixed w-full top-0 left-0  z-50 backdrop-blur-md bg-black shadow-2xl">
       <div className="flex justify-between items-center px-6 lg:px-20 py-7 text-white font-medium text-[17px] lg:text-[18px]">
-       <h1
-  className="text-3xl lg:text-4xl font-bold tracking-wide bg-gradient-to-r from-blue-400 via-violet-500 to-indigo-500 bg-clip-text text-transparent animate-fadeInUp"
->
+      <h1 className="text-3xl lg:text-4xl font-bold tracking-wide text-purple-300">
   Frontend Developer
 </h1>
-        <ul className="hidden lg:flex gap-10 items-center font-semibold">
+        <ul className="hidden lg:flex gap-5 xl:gap-10 items-center font-semibold">
           {["About", "Experience", "Projects", "Contact"].map((item) => (
             <li key={item}>
                <a
@@ -63,7 +61,7 @@ const Navbar = () => {
     ))}
     <li>
       <a
-        href="/resume.pdf"
+        href="/public/lovely.pdf"
         download
         onClick={toggleMenu}
         className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full hover:bg-gray-800 transition"

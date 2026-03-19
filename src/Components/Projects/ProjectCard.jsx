@@ -24,7 +24,7 @@ const ProjectCard = ({ title, main, link , img}) => {
           href={link}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-2 self-start bg-gradient-to-r from-[#4a5bbd] to-[#7187ea] text-white text-sm md:text-base font-semibold px-4 py-2 rounded-full hover:brightness-110 hover:scale-105 transition-all duration-300"
+          className="inline-flex items-center gap-2 self-start bg-purple-600 text-white text-sm md:text-base font-semibold px-4 py-2 rounded-full hover:brightness-110 hover:scale-105 transition-all duration-300"
 
         >
           <ExternalLink className="w-4 h-4" />

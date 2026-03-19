@@ -67,7 +67,7 @@ const Projects = () => {
       <div className="text-center mt-6">
         <button
           onClick={() => setShowAll(!showAll)}
-          className="px-6 py-2 bg-blue-500 hover:bg-blue-600 rounded-lg"
+          className="px-6 py-2 bg-purple-600 hover:bg-white hover:text-purple-600 font-medium rounded-lg"
         >
           {showAll ? "Show Less" : "Show More"}
         </button>
