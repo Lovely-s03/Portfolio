@@ -14,13 +14,13 @@ const Projects = () => {
     {
       title: "PNSD Infection",
       main: "Developed a responsive healthcare service website using HTML, CSS, JavaScript, and React. Designed a modern UI to showcase home injection services and appointment booking.",
-      link: "https://pnsd.in/",
+      link: "https://pnsd.vercel.app/",
       img: ecommerce,
     },
     {
       title: "Kanno Health Care",
       main: "Responsive healthcare website focused on kidney care services with doctor information, treatments, and easy appointment booking.",
-      link: "https://kannohealth.com/",
+      link: "https://kidney-specialist.vercel.app/",
       img: Kanno,
     },
     {
