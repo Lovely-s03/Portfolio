@@ -5,12 +5,19 @@ import HRMS from "../../assets/hrm.jpg";
 import web from "../../assets/web.jpg";
 import Kanno from "../../assets/Kidney.png";
 import fintech from "../../assets/fintech.png";
+import diya from '../../assets/diya.jpeg'
 
 const Projects = () => {
 
   const [showAll, setShowAll] = useState(false);
 
   const projects = [
+     {
+      title: "SKG Enterprise",
+      main: "Developed a spiritual-themed eCommerce website with responsive UI/UX for worship materials, temple products, and seamless online shopping.",
+      link: "https://skgenterprise.com/",
+      img: diya,
+    },
     {
       title: "PNSD Infection",
       main: "Developed a responsive healthcare service website using HTML, CSS, JavaScript, and React. Designed a modern UI to showcase home injection services and appointment booking.",
