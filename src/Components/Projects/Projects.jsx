@@ -6,7 +6,7 @@ import web from "../../assets/web.jpg";
 import Kanno from "../../assets/Kidney.png";
 import fintech from "../../assets/fintech.png";
 import diya from '../../assets/diya.jpeg'
-
+import avolin from '../../assets/Cleaner.png'
 const Projects = () => {
 
   const [showAll, setShowAll] = useState(false);
@@ -18,16 +18,22 @@ const Projects = () => {
       link: "https://skgenterprise.com/",
       img: diya,
     },
+     {
+      title: "Avolin",
+      main: "Eco-friendly eCommerce platform offering premium cleaning products for a safer, healthier home. Features modern design, easy shopping experience, certified safe products, and sustainable solutions for everyday cleaning needs..",
+      link: "https://avolin.in/",
+      img: avolin,
+    },
     {
       title: "PNSD Infection",
       main: "Developed a responsive healthcare service website using HTML, CSS, JavaScript, and React. Designed a modern UI to showcase home injection services and appointment booking.",
-      link: "https://pnsd.vercel.app/",
+      link: "https://pnsd.in/",
       img: ecommerce,
     },
     {
       title: "Kanno Health Care",
       main: "Responsive healthcare website focused on kidney care services with doctor information, treatments, and easy appointment booking.",
-      link: "https://kidney-specialist.vercel.app/",
+      link: "https://kannohealth.com/",
       img: Kanno,
     },
     {

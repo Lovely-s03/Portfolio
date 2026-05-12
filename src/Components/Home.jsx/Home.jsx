@@ -5,7 +5,7 @@ import TextChange from "../TextChange";
 
 const Home = () => {
   return (
-    <div className="min-h-screen flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-20 py-10 text-white overflow-hidden">
+    <div className="flex flex-col-reverse lg:flex-row items-center justify-between px-6 lg:px-20 py-10 text-white overflow-hidden mt-32">
       
       {/* LEFT SIDE */}
       <motion.div
