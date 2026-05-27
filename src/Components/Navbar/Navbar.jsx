@@ -25,7 +25,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/public/lovelyResume.pdf"
+              href="/public/Lovely_Supriya_Resume.pdf"
               download
               className="flex items-center gap-2 px-5 py-1.5 bg-white text-black rounded-full font-medium hover:bg-gray-200 transition"
             >
@@ -61,7 +61,7 @@ const Navbar = () => {
     ))}
     <li>
       <a
-        href="/public/lovelyResume.pdf"
+        href="/public/Lovely_Supriya_Resume.pdf"
         download
         onClick={toggleMenu}
         className="flex items-center gap-2 px-4 py-2 bg-white text-black rounded-full hover:bg-gray-800 transition"
